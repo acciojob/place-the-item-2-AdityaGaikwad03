@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;            /* enable flexbox */
+  flex-wrap: wrap;          /* allow items to move to next row */
+  justify-content: center;  /* center items horizontally */
+  align-items: center;      /* center items vertically */
+  gap: 0;                   /* optional: remove spacing if squashed together */
+  height: 200px;            /* optional: set a fixed height for vertical centering */
+}
